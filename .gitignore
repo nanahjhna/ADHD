@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+/.vs/adhd
+/.vs/slnx.sqlite
+/.vs
