@@ -4,24 +4,9 @@ import Layout from "../components/Layout";
 
 const categories = [
     {
-        name: "기술", path: "tech", sub: [
-            { name: "리액트", path: "react" }
-        ]
-    },
-    {
-        name: "건강", path: "health", sub: [
-            { name: "아킬레스 비수술", path: "achilles" }
-        ]
-    },
-    {
         name: "자가진단", path: "selftest", sub: [
             { name: "ADHD", path: "adhd" },
             { name: "우울증", path: "melancholia" }
-        ]
-    },
-    {
-        name: "게임", path: "game", sub: [
-            { name: "디펜스게임", path: "defense" }
         ]
     },
     // 필요하면 더 추가
@@ -59,7 +44,6 @@ export default function Home() {
                         >
                             {cat.name} {/* 화면에는 한글 표시 */}
                         </div>
-
                         {openCategory === cat.name && (
                             <ul style={{
                                 listStyle: "circle",

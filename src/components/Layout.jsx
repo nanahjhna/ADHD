@@ -40,6 +40,15 @@ export default function Layout({ children }) {
                         }}
                     >홈으로
                     </Link>
+                    <Link
+                        to="/about"
+                        style={{
+                            marginRight: "1rem",
+                            color: "#007acc",
+                            textDecoration: "none",
+                        }}
+                    >ADHD인 나의 자기소개
+                    </Link>
                 </nav>
             </header>
 
