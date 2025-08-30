@@ -73,13 +73,11 @@ export default function Layout({ children }) {
                     marginTop: "1rem",
                 }}
             >
-                <ins
-                    className="kakao_ad_area"
-                    style={{ display: "block", margin: "0 auto" }}
-                    data-ad-unit="DAN-fQq66D94rJojosM8"
+                <ins class="kakao_ad_area" style="display:none;"
+                    data-ad-unit="DAN-HJ1v2PhdeXnFxQHY"
                     data-ad-width="320"
-                    data-ad-height="100"
-                ></ins>
+                    data-ad-height="100"></ins>
+                <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
                 <p style={{ margin: 0, color: "#555", marginTop: "0.5rem" }}>
                     © 2025 My Blog. All rights reserved. <br/> e-mail:nanahjhna7@naver.com
                 </p>
