@@ -76,7 +76,7 @@ export default function Layout({ children }) {
                 <ins
                     className="kakao_ad_area"
                     style={{ display: "block", margin: "0 auto" }}
-                    data-ad-unit="DAN-fQq66D94rJojosM8"
+                    data-ad-unit="DAN-HJ1v2PhdeXnFxQHY"
                     data-ad-width="320"
                     data-ad-height="100"
                 ></ins>
