@@ -7,7 +7,7 @@ import AdhdPost from "./pages/posts/selftest/Adhd.jsx";
 
 import MelancholiaPost from "./pages/posts/selftest/Melancholia.jsx";
 
-import MindsetPost from "./pages/posts/mindcontrol1/Mindset.jsx";
+import MindsetPost from "./pages/posts/mindcontrol/Mindset.jsx";
 
 
 export default function App() {
@@ -24,7 +24,7 @@ export default function App() {
             <Route path="/category/selftest/melancholia" element={<MelancholiaPost />} />
 
             {/* 나머지 카테고리도 동일 */}
-            <Route path="/category/mindcontrol1/mindset" element={<MindsetPost />} />
+            <Route path="/category/mindcontrol/mindset" element={<MindsetPost />} />
 
             
 
