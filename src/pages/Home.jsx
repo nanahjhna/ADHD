@@ -11,11 +11,12 @@ const categories = [
             { name: "우울증", path: "melancholia" }
         ]
     },
+    // 필요하면 더 추가
     {
         name: "마음다스리기",
         path: "mindcontrol",
         sub: [
-            { name: "마인드셋", path: "mindset" }
+            { name: "마인드셋", path: "mindset" },
         ]
     }
     // 필요하면 더 추가
