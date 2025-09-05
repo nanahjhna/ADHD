@@ -1,13 +1,13 @@
 ﻿import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/Home.jsx";
 
-import About from "./pages/About";
+import About from "./pages/About.jsx";
 
-import AdhdPost from "./pages/posts/selftest/Adhd";
+import AdhdPost from "./pages/posts/selftest/Adhd.jsx";
 
-import MelancholiaPost from "./pages/posts/selftest/Melancholia";
+import MelancholiaPost from "./pages/posts/selftest/Melancholia.jsx";
 
-import MindsetPost from "./pages/posts/mindcontrol/Mindset";
+import MindsetPost from "./pages/posts/mindcontrol/Mindset.jsx";
 
 
 export default function App() {
