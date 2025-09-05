@@ -81,7 +81,7 @@ export default function Layout({ children }) {
                     data-ad-height="100"
                 ></ins>
                 <p style={{ margin: 0, color: "#555", marginTop: "0.5rem" }}>
-                    © 2025 My Blog. All rights reserved. <br/> e-mail:nanahjhna7@naver.com
+                    © 2025 My Blog. All rights reserved.
                 </p>
             </footer>
         </div>
