@@ -17,7 +17,7 @@ const categories = [
         sub: [
             { name: "마인드셋", path: "mindset" }
         ]
-    },
+    }
     // 필요하면 더 추가
 ];
 
