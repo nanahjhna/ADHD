@@ -1,5 +1,6 @@
-﻿import React from "react";
-// Layout 컴포넌트는 따로 정의되어 있다고 가정할게요.
+﻿import React, { useState } from "react";
+// Layout 컴포넌트는 따로 정의되어 있다고 가정할게!
+// 만약 없다면 이 줄을 지우거나, 간단한 div 태그로 대체할 수 있어.
 import Layout from "../../../components/Layout";
 
 export default function MindsetPost() {
