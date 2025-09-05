@@ -4,11 +4,11 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 
 // ... 다른 카테고리도 동일하게
-import AdhdPost from "./pages/posts/selftest/Adhd";
+import AdhdPost from "@pages/posts/selftest/Adhd";
 
-import MelancholiaPost from "./pages/posts/selftest/Melancholia";
+import MelancholiaPost from "@pages/posts/selftest/Melancholia";
 
-import MindsetPost from "./pages/posts/mindcontrol/Mindset";
+import MindsetPost from "@pages/posts/mindcontrol/Mindset";
 
 
 export default function App() {
